@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Image Carousel</title>
+</head>
+<body>
+
+<main>
+  <header class="header_wrap">
+      <span class="logo">LOGO</span>
+      <nav class="nav_wrap">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+      </nav>
+      <div class="hamburger-menu">=</div>
+  </header>
+
+  <div class="carousel-container">
+    <div class="carousel">
+        <div class="slide">
+            <img src="kashmir.jpg" alt="Carousel Image 1">
+            <div class="slider_caption">Design and Develop a responsive Image Carousel web component featuring Caption Content 1</div>
+        </div>
+        <div class="slide">
+            <img src="delhi.jpg" alt="Carousel 2">
+            <div class="slider_caption">Design and Develop a responsive Image Carousel web component featuring Caption Content 2</div>
+        </div>
+        <div class="slide">
+            <img src="flight booking2.jpg" alt="Carousel 3">
+            <div class="slider_caption">Design and Develop a responsive Image Carousel web component featuring Caption Content 3</div>
+        </div>
+    </div>
+    <div class="navigation_bar">
+        <button class="navigation_btn" onclick="prevSlide()">Previous</button>
+        <button class="navigation_btn" onclick="nextSlide()">Next</button>
+    </div>
+  </div>
+</main>
+   <script src="script.js"></script>
+</body>
+</html>
